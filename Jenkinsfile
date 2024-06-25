@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    environment {
+        PATH = "C:\Users\iache\AppData\Local\Programs\Python\Python312\python.exe"
+    }
     stages {
         stage('Preparação do Ambiente') {
             steps {
