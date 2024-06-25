@@ -11,6 +11,7 @@ pipeline {
         stage('Execução do Teste Levenshtein') {
             steps {
                 sh 'python levenshtein_teste.py'
+                print('Foi...')
             }
         }
 
