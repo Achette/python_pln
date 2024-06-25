@@ -1,3 +1,4 @@
+print('Levens....')
 import Levenshtein
 str1 = "tem pão"
 str2 = "chover"

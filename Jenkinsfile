@@ -10,6 +10,7 @@ pipeline {
 
         stage('Execução do Teste Levenshtein') {
             steps {
+                print('Teste...')
                 sh 'python levenshtein_teste.py'
                 print('Foi...')
             }
