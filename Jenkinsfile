@@ -1,7 +1,8 @@
 pipeline {
     agent any
     environment {
-        PATH = "C:/Users/iache/AppData/Local/Programs/Python/Python312/python.exe"
+        PATH = "C:/Users/iache/AppData/Local/Programs/Python/Python312/python.exe:C:/Windows/system32/cmd.exe"
+       
     }
     stages {
         stage('Preparação do Ambiente') {
