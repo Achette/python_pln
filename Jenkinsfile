@@ -11,7 +11,7 @@ pipeline {
         stage('Execução do Teste Levenshtein') {
             steps {
                 print('Teste...')
-                bat 'levenshtein_teste.py'
+                bat 'python.exe levenshtein_teste.py'
                 print('Foi...')
             }
         }
@@ -30,7 +30,7 @@ pipeline {
 
         stage('Execução do Chatbot') {
             steps {
-                bat 'python chat_bot.py'
+                bat 'python.exe chat_bot.py'
             }
         }
     }
