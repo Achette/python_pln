@@ -11,7 +11,7 @@ pipeline {
         stage('Execução do Teste Levenshtein') {
             steps {
                 print('Teste...')
-                bat 'python levenshtein_teste.py'
+                bat 'levenshtein_teste.py'
                 print('Foi...')
             }
         }
